@@ -3,5 +3,3 @@
 This webapp is to showcase the projects.
 
 ## Web developments
-
-s
