@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas
 
 st.set_page_config(layout='wide')
 
@@ -15,6 +16,17 @@ with col2:
                 During my studies at [Your University], I honed my skills in Python, web frameworks, and data analysis."""
     st.info(content)
 
-text_banner = 'Below you can find some of the apps I have built in python, Feel free to contact me...'
-st.write(text_banner)
+content_1 = 'Below you can find some of the apps I have built in python, Feel free to contact me...'
+st.write(content_1)
 
+col3, col4 = st.columns(2)
+
+data_frame = pandas.read_csv('data.csv',sep=';')
+
+with col3:
+    for index, row in data_frame[:10].iterrows():
+        st.header(row['title'])
+
+with col4:
+    for index, row in data_frame[10:].iterrows():
+        st.header(row['title'])
