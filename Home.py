@@ -13,7 +13,7 @@ with col2:
     content = """
                 Hi there! I’m Jeeva S, a passionate junior Python developer with a strong foundation in object-oriented programming. 
                 I thrive on solving complex problems and turning ideas into functional code. 
-                During my studies at [Your University], I honed my skills in Python, web frameworks, and data analysis."""
+                During my studies at Thiagarajar college of Engineeering, I honed my skills in Python, web frameworks, and data analysis."""
     st.info(content)
 
 content_1 = 'Below you can find some of the apps I have built in python, Feel free to contact me...'
