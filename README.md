@@ -1,5 +1,5 @@
 # What is this project?
 
-This webapp is to showcase the projects.
+This webapp is to Show the projects.
 
 ## Web developments
